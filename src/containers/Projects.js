@@ -52,7 +52,7 @@ const Projects = () => {
         // {name: "Project 6", type: "Project type here", description: "Project description here."}
     ];
 
-    const [selectedProject, setSelectedProject] = useState(0);
+    const [selectedProject, setSelectedProject] = useState(null);
     // const [learnMore, setLearnMore] = useState(false);
 
     // useEffect(() => {setLearnMore(true)}, [selectedProject]);
