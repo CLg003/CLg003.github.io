@@ -6,7 +6,8 @@ const Contact = () => {
     return (
         <div id="contact">
             <h2>Contact</h2>
-            <form>
+            <p>Please contact me via <a href="https://www.linkedin.com/in/clairemjlaing/" target="_blank">LinkedIn</a>.</p>
+            {/* <form>
                 <label htmlFor="name" id="name">Name *</label>
                 <input type="text" name="name" placeholder="Full name" required/>
                 <br/>
@@ -17,7 +18,7 @@ const Contact = () => {
                 <br/>
                 <textarea name="message" rows="8" placeholder="Your message here *" />
                 <button type="submit">Send</button>
-            </form>
+            </form> */}
         </div>
     );
 

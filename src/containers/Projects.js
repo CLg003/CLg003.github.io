@@ -20,7 +20,7 @@ const Projects = () => {
         },
         {name: "NBA 75", 
         type: "React/REST API full-stack web app", 
-        description: "React web app, designed and built as a solo assignment, that uses data from an external REST API to display information about the NBA's 75th Anniversary Greatest Players of All Time - built over 2 days using JavaScript, React and an external REST API. Please note that, due to request limits on the API, I had to amend the remit of this app to show the 25 greatest NBS players of all time!", 
+        description: "React web app, designed and built as a solo assignment, that uses data from an external REST API to display information about the NBA's 75th Anniversary Greatest Players of All Time - built over 2 days using JavaScript, React and an external REST API. Please note that, due to request limits on the API, I had to amend the remit of this app to show the 25 greatest NBA players of all time!", 
         image: "/assets/images/project_videos_and_screenshots/nba_ss/nba_main_ss.png", 
         detailImages: [
             "/assets/images/project_videos_and_screenshots/nba_ss/nba_main_ss.png", 

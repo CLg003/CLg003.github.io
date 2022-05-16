@@ -327,12 +327,18 @@ nav > a.active {
 }
 
 .project-description {
-  max-width: 40%;
+  max-width: 80%;
   margin: auto;
   text-align: left;
 }
 
 @media ( max-width: 1350px) {
+  .project-description { 
+    max-width: 90%; 
+  }
+}
+
+@media ( max-width: 900px) {
   .project-description { 
     max-width: 100%; 
   }
@@ -451,6 +457,15 @@ nav > a.active {
 
 #contact {
   margin: 70px 0;
+}
+
+#contact p a {
+  color: #ee6c4d;
+  text-decoration: none;
+}
+
+#contact p a:hover {
+  color: #3a668c;
 }
 
 form {
