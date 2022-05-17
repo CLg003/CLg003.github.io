@@ -19,8 +19,8 @@ const Projects = () => {
         github:"https://github.com/CLg003/Pulse_Gym_Management"
         },
         {name: "NBA 75", 
-        type: "React/REST API full-stack web app", 
-        description: "React web app, designed and built as a solo assignment, that uses data from an external REST API to display information about the NBA's 75th Anniversary Greatest Players of All Time - built over 2 days using JavaScript, React and an external REST API. Please note that, due to request limits on the API, I had to amend the remit of this app to show the 25 greatest NBA players of all time!", 
+        type: "React/REST API web app", 
+        description: "React web app, designed and built as a solo assignment, that uses data from a REST API to display player details and stats for the NBA's 75th Anniversary Greatest Players of All Time - built over 2 days using JavaScript, React and a REST API. Please note that, due to request limits on the API, I had to amend the remit of this app to show the 25 greatest NBA players of all time!", 
         image: "/assets/images/project_videos_and_screenshots/nba_ss/nba_main_ss.png", 
         detailImages: [
             "/assets/images/project_videos_and_screenshots/nba_ss/nba_main_ss.png", 
@@ -34,7 +34,7 @@ const Projects = () => {
         },
         {name: "Triolingo", 
         type: "React full-stack web app", 
-        description: "React full-stack educational web app, designed and built as a group project, to teach Spanish to primary-aged children - built over 5 days using JavaScript, React, Express & MongoDB.", 
+        description: "React full-stack educational web app, designed and built as a group project, to teach Spanish to primary-aged children using a variety of lesson formats and quizzes - built over 5 days using JavaScript, React, Express and MongoDB. Please note that the video for this project has audio.", 
         image: "/assets/images/project_videos_and_screenshots/triolingo_ss/triolingo_lesson2_reset_ss.png", 
         detailImages: [
             "/assets/images/project_videos_and_screenshots/triolingo_ss/triolingo_landing_screen_ss.png", 
