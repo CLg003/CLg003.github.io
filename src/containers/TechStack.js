@@ -18,6 +18,7 @@ import mongoDBLogo from '../images/tech_stack/mongodb.png';
 import insomniaLogo from '../images/tech_stack/insomnia.png';
 import expressLogo from '../images/tech_stack/express.png';
 import intellijLogo from '../images/tech_stack/intellij.png';
+import springLogo from '../images/tech_stack/spring.png';
 
 const TechStack = () => {
     return (
@@ -47,6 +48,10 @@ const TechStack = () => {
                 <div className="tech">
                     <img src={pipLogo} alt="pipLogo"/>
                     <p>Flask/Jinja</p>
+                </div>
+                <div className="tech">
+                    <img src={springLogo} alt="springLogo"/>
+                    <p>Spring Boot</p>
                 </div>
                 <div className="tech">
                     <img src={node_jsLogo} alt="node_jsLogo"/>
