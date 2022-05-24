@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9ac46447.css",
-    "main.js": "/static/js/main.d0130568.js",
+    "main.js": "/static/js/main.85081c9f.js",
     "static/js/787.883a1d63.chunk.js": "/static/js/787.883a1d63.chunk.js",
     "static/media/simon-berger-twukN12EN7c-unsplash-crop.jpg": "/static/media/simon-berger-twukN12EN7c-unsplash-crop.04230fac60a39c415267.jpg",
     "static/media/vs_code.png": "/static/media/vs_code.e66400756ccbdbfc0b31.png",
     "static/media/intellij.png": "/static/media/intellij.b3c11b75c2463821e485.png",
     "static/media/Instagram_Glyph_Gradient_RGB.png": "/static/media/Instagram_Glyph_Gradient_RGB.f7b3dff34fba7bf43d83.png",
     "static/media/java.png": "/static/media/java.f3d15885e3e988d665e8.png",
+    "static/media/spring.png": "/static/media/spring.5fda54abfc70b973ccb4.png",
     "static/media/express.png": "/static/media/express.cca64e0f360897258ecb.png",
     "static/media/node_js.png": "/static/media/node_js.e328955d6bbbf3ebc72b.png",
     "static/media/react.png": "/static/media/react.d0966e3261199df4d854.png",
@@ -19,11 +20,11 @@
     "static/media/slack.png": "/static/media/slack.2f018ef9338bec6ada43.png",
     "index.html": "/index.html",
     "main.9ac46447.css.map": "/static/css/main.9ac46447.css.map",
-    "main.d0130568.js.map": "/static/js/main.d0130568.js.map",
+    "main.85081c9f.js.map": "/static/js/main.85081c9f.js.map",
     "787.883a1d63.chunk.js.map": "/static/js/787.883a1d63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ac46447.css",
-    "static/js/main.d0130568.js"
+    "static/js/main.85081c9f.js"
   ]
 }
