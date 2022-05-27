@@ -30,12 +30,12 @@ const TechStack = () => {
                     <p>Python</p>
                 </div>
                 <div className="tech">
-                    <img src={javaLogo} alt="javaLogo"/>
-                    <p>Java</p>
-                </div>
-                <div className="tech">
                     <img src={javascriptLogo} alt="javascriptLogo"/>
                     <p>JavaScript</p>
+                </div>
+                <div className="tech">
+                    <img src={javaLogo} alt="javaLogo"/>
+                    <p>Java</p>
                 </div>
                 <div className="tech">
                     <img src={htmlLogo} alt="htmlLogo"/>
@@ -50,10 +50,6 @@ const TechStack = () => {
                     <p>Flask/Jinja</p>
                 </div>
                 <div className="tech">
-                    <img src={springLogo} alt="springLogo"/>
-                    <p>Spring Boot</p>
-                </div>
-                <div className="tech">
                     <img src={node_jsLogo} alt="node_jsLogo"/>
                     <p>Node.js</p>
                 </div>
@@ -64,6 +60,10 @@ const TechStack = () => {
                 <div className="tech">
                     <img src={expressLogo} alt="expressLogo"/>
                     <p>Express</p>
+                </div>
+                <div className="tech">
+                    <img src={springLogo} alt="springLogo"/>
+                    <p>SpringBoot</p>
                 </div>
                 {/* <div className="tech">
                     <img src={npmLogo} alt="npmLogo"/>
