@@ -214,13 +214,13 @@ nav > a.active {
   margin: 10px;
   color: transparent;
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 @media ( max-width: 1200px) {
   .project { 
     flex-basis: 60%; 
-   }
+  }
 }
 
 @media ( max-width: 900px) {
@@ -264,7 +264,7 @@ nav > a.active {
   width: 100%;
   height: 100%;
   border: 0.5px solid #64798d;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .project > .text-on-image {
@@ -375,6 +375,16 @@ nav > a.active {
   padding: 20px 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  /* padding-top: 56.25%; */
+  /* position: relative; */
+
+  /* width: 430px; */
+  /* height: 250px; */
+}
+
+.video > #player {
+  /* position: absolute; */
 }
 
 @media (max-width: 700px) {
@@ -382,10 +392,6 @@ nav > a.active {
     width: 90%;
     margin: auto;
   }
-
-  /* .video > #player {
-    width: 90%;
-  } */
 }
 
 .project-detail-images {
