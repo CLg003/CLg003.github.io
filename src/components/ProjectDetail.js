@@ -25,7 +25,7 @@ const ProjectDetail = ({project, clearSelectedProject}) => {
                     <a href={project.github} target="_blank">GitHub</a>
                 </div>
                 <div className="video">
-                    <ReactPlayer url={`${process.env.PUBLIC_URL}${project.video}`} height="250px" width="430px" />
+                    <ReactPlayer id="player" url={`${process.env.PUBLIC_URL}${project.video}`} height="250px" width="430px" />
                 </div>
             </div>
             <div className="project-detail-images">

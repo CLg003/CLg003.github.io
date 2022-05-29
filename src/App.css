@@ -150,7 +150,6 @@ nav > a {
 @media (max-width: 800px){
   nav > a {
     padding: 10px 10px;
-    font-size: small;
   }
 }
 
@@ -318,6 +317,12 @@ nav > a.active {
   background-color: #fff;
 }
 
+@media (max-width: 700px) {
+  .project-detail {
+    padding: 20px 20px;
+  }
+}
+
 .project-detail h3 {
   text-transform: uppercase;
   color:#3a668c;
@@ -372,6 +377,17 @@ nav > a.active {
   margin-bottom: 20px;
 }
 
+@media (max-width: 700px) {
+  .video {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* .video > #player {
+    width: 90%;
+  } */
+}
+
 .project-detail-images {
   display: flex;
   flex-direction: row;
@@ -417,6 +433,21 @@ nav > a.active {
   margin: 70px 0;
 }
 
+@media (max-width: 600px) {
+  #tech-stack-logos {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* .tech {
+    width: 50px;
+    margin: 10px;
+  }
+  .tech > img {
+    width: 50px;
+  } */
+}
+
 #tech-stack-logos {
   display: flex;
   flex-direction: row;
@@ -450,11 +481,6 @@ nav > a.active {
   transform: translate(-50%, 0);
   bottom: 30%;
 }
-/* @media ( max-width: 1400px) {
-  .project:hover { 
-    font-size: smaller; 
-  }
-} */
 
 .tech:hover > p {
   opacity: 1;
