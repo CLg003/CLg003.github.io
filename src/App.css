@@ -27,6 +27,18 @@ main {
   
 }
 
+@media ( max-width: 1400px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media ( max-width: 700px) {
+  main {
+    width: 80%;
+  }
+}
+
 h2 {
   font-family: Lato;
   text-transform: uppercase;
@@ -109,39 +121,37 @@ header > img {
 
 /* NAV BAR */
 
-/* #nav-container {
-  position: absolute;
-  top: 41%;
-  width: 100%;
-} */
-
 nav {
-  /* background-color: #000; */
   background-color: #3a668c;
   color: white;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  /* border-bottom: 2px solid #e31b6d; */
-  /* border-top: 3px solid #ff5757; */
-  /* border-bottom: 4px solid #ff5757; */
   margin: 0 !important;
   display: flex;
+  flex-flow: wrap row;
   justify-content: center;
   z-index: 10;
 }
 
-nav > .links {
+/* nav > .links {
   width: 70%;
   margin: auto;
   margin-top: 0;
-}
+} */
 
 nav > a {
   text-transform: uppercase;
   font-weight: bold;
   padding: 10px 30px;
   margin-top: 0;
+}
+
+@media (max-width: 800px){
+  nav > a {
+    padding: 10px 10px;
+    font-size: small;
+  }
 }
 
 nav > a:hover {
