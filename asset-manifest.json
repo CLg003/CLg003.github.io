@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe870519.css",
-    "main.js": "/static/js/main.c8d56dc0.js",
+    "main.js": "/static/js/main.3a74ad81.js",
     "static/js/787.883a1d63.chunk.js": "/static/js/787.883a1d63.chunk.js",
     "static/media/simon-berger-twukN12EN7c-unsplash-crop.jpg": "/static/media/simon-berger-twukN12EN7c-unsplash-crop.04230fac60a39c415267.jpg",
     "static/media/vs_code.png": "/static/media/vs_code.e66400756ccbdbfc0b31.png",
@@ -10,6 +10,7 @@
     "static/media/java.png": "/static/media/java.f3d15885e3e988d665e8.png",
     "static/media/spring.png": "/static/media/spring.5fda54abfc70b973ccb4.png",
     "static/media/express.png": "/static/media/express.cca64e0f360897258ecb.png",
+    "static/media/dart.png": "/static/media/dart.412e47ed9b778a1d8b02.png",
     "static/media/node_js.png": "/static/media/node_js.e328955d6bbbf3ebc72b.png",
     "static/media/react.png": "/static/media/react.d0966e3261199df4d854.png",
     "static/media/insomnia.png": "/static/media/insomnia.b91bb866d870266cd8b7.png",
@@ -17,14 +18,15 @@
     "static/media/postgresql.png": "/static/media/postgresql.6c5d698f195dac2fe5af.png",
     "static/media/pip.png": "/static/media/pip.d7b38a8c3009c02a4b92.png",
     "static/media/cypress.png": "/static/media/cypress.97d023e4b9d26b0a1967.png",
+    "static/media/flutter.png": "/static/media/flutter.e6c5acd268a9b26d1661.png",
     "static/media/slack.png": "/static/media/slack.2f018ef9338bec6ada43.png",
     "index.html": "/index.html",
     "main.fe870519.css.map": "/static/css/main.fe870519.css.map",
-    "main.c8d56dc0.js.map": "/static/js/main.c8d56dc0.js.map",
+    "main.3a74ad81.js.map": "/static/js/main.3a74ad81.js.map",
     "787.883a1d63.chunk.js.map": "/static/js/787.883a1d63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe870519.css",
-    "static/js/main.c8d56dc0.js"
+    "static/js/main.3a74ad81.js"
   ]
 }
