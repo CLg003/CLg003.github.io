@@ -43,13 +43,18 @@ const Projects = () => {
             "/assets/images/project_videos_and_screenshots/triolingo_ss/triolingo_lesson3_inprogress_ss3.png", 
             "/assets/images/project_videos_and_screenshots/triolingo_ss/triolingo_game_inprogress_ss4.png"
         ], 
-        // video: "https://www.youtube.com/watch?v=WyMdT1xsBMg", 
         video: "https://youtu.be/WyMdT1xsBMg", 
         github:"https://github.com/CLg003/TrioLingo"
-        }
-        // {name: "Project 4", type: "Project type here", description: "Project description here."},
-        // {name: "Project 5", type: "Project type here", description: "Project description here."},
-        // {name: "Project 6", type: "Project type here", description: "Project description here."}
+        },
+        {name: "Edinburgh Literary Companion", 
+        type: "Flutter mobile app", 
+        description: "Coming soon...",
+        image: "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_companion_in_progress_ss.png", 
+        detailImages: ["/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_companion_in_progress_ss.png"],
+        video: "", 
+        github: ""},
+        // {name: "Project 5", type: "Project type here", description: "Project description here.", image: "", detailImages: [], video: "", github: ""},
+        // {name: "Project 6", type: "Project type here", description: "Project description here.", image: "", detailImages: [], video: "", github: ""}
     ];
 
     const [selectedProject, setSelectedProject] = useState(null);

@@ -20,6 +20,8 @@ const ProjectList = ({projects, selectedProject, learnMore, selectProject, clear
         return (<ProjectDetail project={projects[1]} selectProject={selectProject} clearSelectedProject={clearSelectedProject}/>)
     } else if (selectedProject === 2) {
         return (<ProjectDetail project={projects[2]} selectProject={selectProject} clearSelectedProject={clearSelectedProject}/>)
+    } else if (selectedProject === 3) {
+        return (<ProjectDetail project={projects[3]} selectProject={selectProject} clearSelectedProject={clearSelectedProject}/>)
     } else {
         return(
             <div id="project-list">

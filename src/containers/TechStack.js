@@ -19,6 +19,8 @@ import insomniaLogo from '../images/tech_stack/insomnia.png';
 import expressLogo from '../images/tech_stack/express.png';
 import intellijLogo from '../images/tech_stack/intellij.png';
 import springLogo from '../images/tech_stack/spring.png';
+import dartLogo from '../images/tech_stack/dart.png';
+import flutterLogo from '../images/tech_stack/flutter.png';
 
 const TechStack = () => {
     return (
@@ -45,6 +47,15 @@ const TechStack = () => {
                     <img src={cssLogo} alt="cssLogo"/>
                     <p>CSS3</p>
                 </div>
+                <div className="tech">
+                    <img src={dartLogo} alt="dartLogo"/>
+                    <p>Dart</p>
+                </div>
+                <div className="tech">
+                    <img src={flutterLogo} alt="flutterLogo"/>
+                    <p>Flutter</p>
+                </div>
+
                 <div className="tech">
                     <img src={pipLogo} alt="pipLogo"/>
                     <p>Flask/Jinja</p>
