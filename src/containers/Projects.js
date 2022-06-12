@@ -48,11 +48,18 @@ const Projects = () => {
         },
         {name: "Edinburgh Literary Companion", 
         type: "Flutter mobile app", 
-        description: "Coming soon...",
-        image: "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_companion_in_progress_ss.png", 
-        detailImages: ["/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_companion_in_progress_ss.png"],
-        video: "", 
-        github: ""},
+        description: "Flutter multi-platform mobile app that enables the user to explore a range of Edinburgh literary locations and novels set in Edinburgh, the world's first UNESCO City of Literature. Designed and built as a group project over 11 days. None of the group had prior experience of Dart/Flutter or mobile development - the first 3 days we spent learning Flutter, followed by 8 days of planning and development.",
+        image: "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_1.png", 
+        detailImages: [
+            "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_1.png",
+            "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_2.png",
+            "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_3.png",
+            "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_4.png",
+            "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_5.png",
+            "/assets/images/project_videos_and_screenshots/ed_lit_companion_ss/ed_lit_ss_6.png",
+        ],
+        video: "https://youtu.be/ACz2EEO8zdE", 
+        github: "https://github.com/CordiiT14/edinburgh_literary_companion"},
         // {name: "Project 5", type: "Project type here", description: "Project description here.", image: "", detailImages: [], video: "", github: ""},
         // {name: "Project 6", type: "Project type here", description: "Project description here.", image: "", detailImages: [], video: "", github: ""}
     ];
